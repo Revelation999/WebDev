@@ -11,9 +11,16 @@ p {
 	background-color: gray;
 	border: 2px solid black;
 	padding: 10px;
-	margin: 15px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	box-sizing: border-box;
 	float: left;
+}
+
+div {
+	margin: 0;
 }
 
 span {
@@ -24,7 +31,7 @@ span {
 	position: relative;
 	bottom: 12px;
 	left: 12px;
-	
+
 	border: 1px solid black;
 	padding: 2px;
 	box-sizing: border-box;
@@ -46,28 +53,28 @@ span {
 
 @media (min-width: 992px) {
 	.firstline{
-		width: 33%;
+		width: 30%;
 	}
 
 	.secondline{
-		width: 33%;
+		width: 30%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.firstline{
-		width: 50%;
+		width: 46.25%;
 	}
 	.secondline{
-		width: 100%;
+		width: 95%;
 	}
 }
 
 @media (max-width: 767px) {
 	.firstline{
-		width: 100%;
+		width: 95%;
 	}
 	.secondline{
-		width: 100%;
+		width: 95%;
 	}
 }
