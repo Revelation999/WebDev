@@ -11,10 +11,7 @@ p {
 	background-color: gray;
 	border: 2px solid black;
 	padding: 10px;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	margin-bottom: 15px;
-	margin-top: 15px;
+	margin: 12px;
 	box-sizing: border-box;
 	float: left;
 }
@@ -53,28 +50,28 @@ span {
 
 @media (min-width: 992px) {
 	.firstline{
-		width: 30%;
+		width: calc(33% - 16px);
 	}
 
 	.secondline{
-		width: 30%;
+		width: calc(33% - 16px);
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.firstline{
-		width: 46.25%;
+		width: calc(50% - 18px);
 	}
 	.secondline{
-		width: 95%;
+		width: calc(100% - 24px);
 	}
 }
 
 @media (max-width: 767px) {
 	.firstline{
-		width: 95%;
+		width: calc(100% - 24px);
 	}
 	.secondline{
-		width: 95%;
+		width: calc(100% - 24px);
 	}
 }
