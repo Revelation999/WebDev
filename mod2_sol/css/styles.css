@@ -50,17 +50,17 @@ span {
 
 @media (min-width: 992px) {
 	.firstline{
-		width: calc(33% - 16px);
+		width: calc(33% - 24px);
 	}
 
 	.secondline{
-		width: calc(33% - 16px);
+		width: calc(33% - 24px);
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.firstline{
-		width: calc(50% - 18px);
+		width: calc(50% - 24px);
 	}
 	.secondline{
 		width: calc(100% - 24px);
